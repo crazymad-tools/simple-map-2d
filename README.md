@@ -1,2 +1,8 @@
-# simple-map-2d
-simple map
+## 简单地图加载器
+
+一个非常简单简陋的地图加载器，目前只支持加载google地图。
+
+### 启动方法
+```npm run start```，打开本地地址9000端口即可预览。
+
+```npm run build```，打包构建命令，输出目录 ```dist```
