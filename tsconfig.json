@@ -10,6 +10,11 @@
     "jsx": "react",
     "allowJs": true,
     "baseUrl": ".",
+    "paths": {
+      "src/*":[
+        "src/*"
+      ]
+    },
     "declaration": true,
     "allowSyntheticDefaultImports": true
   }

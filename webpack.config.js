@@ -27,6 +27,9 @@ module.exports = {
     ],
   },
   resolve: {
+    alias: {
+      'src': path.resolve(__dirname, "src"),
+    },
     extensions: [".tsx", ".ts", ".js"],
   },
   plugins: [
@@ -40,9 +43,9 @@ module.exports = {
     }),
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, "dist"),
     compress: true,
-    open: 'Google Chrome',
-    port: 9000
-  }
+    open: "Google Chrome",
+    port: 9000,
+  },
 };
